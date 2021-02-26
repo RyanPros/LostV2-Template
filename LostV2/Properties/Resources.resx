@@ -17682,6 +17682,10 @@
         AP//AgD//wEA//8BAP//AQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACw==
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Death - Sound Effect (HD).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="deepBrush" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZ
@@ -20380,9 +20384,11 @@
         jHJzUdFFUikJUqgE0UUPYCR1UDpVeiilHYD/2Q==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Door.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Footsteps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minecraft Footsteps - Sound Effect (HD).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="forestLake" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -26572,6 +26578,9 @@
         Wb6R2PbEmhgumQTqx1hduTx9icLxt0ayiRmAsCBtjJFCIJINrfY4agFZ29sMgHVJBvcYIUS1BhvsfOMG
         7ItZhvvbGAcsTsO2CBnUHnGAWEDTzfxgGIAbgE/zxjH/2Q==
 </value>
+  </data>
+  <data name="Game_Over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Over.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="green_50x50" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -42825,6 +42834,12 @@
         AFJlY29yZGVkIG9uIDE4LzA1LzIwMTQgaW4gRWRpc29uLg0KUmVjb3JkZWQgb24gMTkvMDUvMjAxNCBp
         biBFZGlzb24uAABJU0ZUBwAAAEVkaXNvbgAACw==
 </value>
+  </data>
+  <data name="pillows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pillows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pixel_Vic_Roy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixel Vic Roy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="red_50x50" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

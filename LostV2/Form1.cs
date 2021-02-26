@@ -10,15 +10,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;  
+using System.Windows.Forms;
+using System.Media;
 
 namespace LostV2
 {
     public partial class Form1 : Form
     {
         // tracks what part of the game the user is at
-        int scene = 0;  
-
+        int scene = 0;
+        
         // random number generator
 
         public Form1()
@@ -350,6 +351,7 @@ namespace LostV2
             switch (scene)
             {
                 case 1:  //start scene  
+                    SoundPlayer Footsteps = new SoundPlayer(Properties.Resources.Footsteps);
                     picBox1.BackgroundImage = Properties.Resources.Door;
                     outputLabel.Text = "You awake on a bed in a unknown place with no recollection of how you got there. You hear Footsteps Coming toward the door! What Should You Do?";
                     redLabel.Text = "Hide underneath the bed";
@@ -362,12 +364,13 @@ namespace LostV2
                     blueLabel.Text = "Stay";
                     break;
                 case 3:
-                    picBox1.BackgroundImage = Properties.Resources.Under_bed;
+                    picBox1.BackgroundImage = Properties.Resources.pillows;
                     outputLabel.Text = "He noticed you were awake a decided you were better asleep then awake. So he then smothers you to death.";
                     redLabel.Text = "Push";
                     blueLabel.Text = "Push";
                     break;
                 case 4:
+                    picBox1.BackgroundImage = Properties.Resources.Door;
                     outputLabel.Text = "You make a break for the exit you run towards it and realize the door leading out is locked ";
                     redLabel.Text = "Break Down the door";
                     blueLabel.Text = "1v1 Him in a COD match";
@@ -493,16 +496,19 @@ namespace LostV2
                     blueLabel.Text = "Push";
                     break;
                 case 29:
-                    outputLabel.Text = "You Thought you were tough and called the unknow figure on. After a couple minutes you hear the door open you're then are shot 10 times after being annoying.Really you got what you Deserve";
+                    outputLabel.Text = "You Thought you were tough and called the unknow figure on. After a couple minutes you hear the door open you're then are shot 10 times after being annoying.";
                     redLabel.Text = "Push";
                     blueLabel.Text = "Push";
                     break;
                 case 98:
+                    picBox1.BackgroundImage = Properties.Resources.pixel_Vic_Roy;
                     outputLabel.Text = "You have won Thanks for playing";
                     redLabel.Text = "Play Again";
                     blueLabel.Text = "Return To Main Menu";
                     break;
                 case 99:
+                    SoundPlayer Death = new SoundPlayer(Properties.Resources.Death);
+                    picBox1.BackgroundImage = Properties.Resources.Game_Over;
                     outputLabel.Text = "You have Died, You really do suck at this";
                     redLabel.Text = "Play Again";
                     blueLabel.Text = "Return To Main Menu";

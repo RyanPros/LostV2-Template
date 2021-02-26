@@ -80,6 +80,15 @@ namespace LostV2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Death {
+            get {
+                return ResourceManager.GetStream("Death", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap deepBrush {
@@ -100,11 +109,30 @@ namespace LostV2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Footsteps {
+            get {
+                return ResourceManager.GetStream("Footsteps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap forestLake {
             get {
                 object obj = ResourceManager.GetObject("forestLake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Game_Over {
+            get {
+                object obj = ResourceManager.GetObject("Game_Over", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,6 +153,26 @@ namespace LostV2.Properties {
         internal static System.IO.UnmanagedMemoryStream jungle {
             get {
                 return ResourceManager.GetStream("jungle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pillows {
+            get {
+                object obj = ResourceManager.GetObject("pillows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pixel_Vic_Roy {
+            get {
+                object obj = ResourceManager.GetObject("pixel_Vic_Roy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

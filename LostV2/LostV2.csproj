@@ -127,6 +127,21 @@
   <ItemGroup>
     <None Include="Resources\Under bed.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixel Vic Roy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game_Over.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pillows.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minecraft Footsteps - Sound Effect %28HD%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Death - Sound Effect %28HD%29.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
